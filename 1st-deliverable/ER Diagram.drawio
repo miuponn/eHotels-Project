@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T00:58:27.551Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="NFiO9YgjZnGvymgI9t5L" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T01:04:36.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_qQeGs1poGa8pKg6INrR" version="23.1.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="536" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="468" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,11 +16,11 @@
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-25" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.336;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="n6qlhuI8QrUAEuEiPk_b-12" target="n6qlhuI8QrUAEuEiPk_b-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="n6qlhuI8QrUAEuEiPk_b-12" value="HOTEL_CHAIN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
-          <mxGeometry x="140" y="180" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-18" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Address&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="20" y="130" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n6qlhuI8QrUAEuEiPk_b-12" value="HOTEL_CHAIN" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
+          <mxGeometry x="140" y="180" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-19" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;NumberOfHotels&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="80" height="40" as="geometry" />
@@ -42,9 +42,6 @@
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-39" value="HOTEL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.25,0,0,0],[1,0.5,0,0,0],[1,0.75,0,0,0],[1,1,0,0,0]];" parent="1" vertex="1">
           <mxGeometry x="400" y="180" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="n6qlhuI8QrUAEuEiPk_b-40" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;u&gt;HotelID&lt;/u&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;points=[[0,0,0,0,0],[0,0.5,0,0,0],[0,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,0,0,0,0],[1,0.5,0,0,0],[1,1,0,0,0]];fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="240" y="100" width="70" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-41" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;NumberOfRooms&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="420" y="30" width="80" height="40" as="geometry" />
         </mxCell>
@@ -63,6 +60,9 @@
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-47" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Category&lt;br&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="355" y="60" width="70" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="n6qlhuI8QrUAEuEiPk_b-40" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;u&gt;HotelID&lt;/u&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;points=[[0,0,0,0,0],[0,0.5,0,0,0],[0,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,0,0,0,0],[1,0.5,0,0,0],[1,1,0,0,0]];fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="220" y="110" width="70" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-48" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.712;entryY=-0.099;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="n6qlhuI8QrUAEuEiPk_b-42" target="n6qlhuI8QrUAEuEiPk_b-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -71,6 +71,12 @@
         </mxCell>
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-51" value="Room" style="shape=ext;margin=3;double=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="670" y="175" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="5rqhR2iwC79nwqxsg9u8-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.149;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="n6qlhuI8QrUAEuEiPk_b-12" target="n6qlhuI8QrUAEuEiPk_b-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="210" as="sourcePoint" />
+            <mxPoint x="270" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-52" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;OWNS&lt;/font&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="290" y="150" width="75" height="40" as="geometry" />
