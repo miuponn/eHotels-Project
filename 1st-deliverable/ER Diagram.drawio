@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-12T23:22:38.593Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="D6Dk7UdcN-eSJEtFQf7l" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-12T23:24:31.763Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="A5GfA3_H9yl47XRTG7EU" version="23.1.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1153" dy="1294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1854" dy="1742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,10 +20,10 @@
           <mxGeometry x="-120" y="457.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-20" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;ContactEmail&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=8;" parent="1" vertex="1">
-          <mxGeometry x="-88.51" y="312.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="57.260000000000005" y="437.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-21" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;PhoneNumber&lt;br style=&quot;font-size: 8px;&quot;&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=8;" parent="1" vertex="1">
-          <mxGeometry x="-27.25999999999999" y="307.5" width="60" height="35" as="geometry" />
+          <mxGeometry x="222.50000000000003" y="435" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="n6qlhuI8QrUAEuEiPk_b-13" value="&lt;u style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;HotelChainID&lt;/font&gt;&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;points=[[0,0,0,0,0],[0,0.5,0,0,0],[0,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,0,0,0,0],[1,0.5,0,0,0],[1,1,0,0,0]];fontColor=#333333;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="-120" y="417.87" width="60" height="35" as="geometry" />
@@ -713,6 +713,18 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="480" as="sourcePoint" />
             <mxPoint x="197" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeUMKi4RCY3Re18be1Uy-45" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0.81;entryY=0.124;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="n6qlhuI8QrUAEuEiPk_b-12" target="n6qlhuI8QrUAEuEiPk_b-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="480" as="sourcePoint" />
+            <mxPoint x="103" y="531" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CeUMKi4RCY3Re18be1Uy-46" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;entryX=0.221;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="n6qlhuI8QrUAEuEiPk_b-12" target="n6qlhuI8QrUAEuEiPk_b-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="410" as="sourcePoint" />
+            <mxPoint x="230" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
