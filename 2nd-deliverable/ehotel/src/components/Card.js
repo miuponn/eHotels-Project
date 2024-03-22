@@ -4,10 +4,13 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import CardActions from '@mui/material/CardActions';
+// import CustomButton from './Button.js';
+import Button from '@mui/material/Button';
 
 export default function ActionAreaCard() {
     return (
-      <Card sx={{ maxWidth: 350}} variant="outlined">
+      <Card sx={{ maxWidth: 340}} variant="outlined">
         <CardActionArea>
             <CardMedia
                 component="img"
@@ -26,6 +29,9 @@ export default function ActionAreaCard() {
                 </Typography>
             </CardContent>
         </CardActionArea>
+        <CardActions>
+            <Button/>
+        </CardActions>
       </Card>  
     );
 }

@@ -5,10 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './components/Card.js';
 import ActionAreaCard from './components/Card.js';
+import NavBar from './components/Navbar.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <NavBar />
     <App />
     <ActionAreaCard />
   </React.StrictMode>
