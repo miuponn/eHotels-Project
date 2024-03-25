@@ -5,7 +5,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import CardActions from '@mui/material/CardActions';
-// import CustomButton from './Button.js';
 import Button from '@mui/material/Button';
 
 export default function ActionAreaCard() {
@@ -30,7 +29,9 @@ export default function ActionAreaCard() {
             </CardContent>
         </CardActionArea>
         <CardActions>
-            <Button/>
+            <Button>
+                more details
+            </Button>
         </CardActions>
       </Card>  
     );
