@@ -9,7 +9,7 @@ import Button from '@mui/material/Button';
 
 export default function ActionAreaCard() {
     return (
-      <Card sx={{ maxWidth: 340}} variant="outlined">
+      <Card sx={{ maxWidth: 300}} variant="outlined">
         <CardActionArea>
             <CardMedia
                 component="img"

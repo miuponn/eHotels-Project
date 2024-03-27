@@ -5,15 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './components/Card.js';
 import ActionAreaCard from './components/Card.js';
-import NavBar from './components/Navbar.js';
+import Navbar from './components/Navbar.js';
+import { BrowserRouter } from "react-router-dom";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NavBar />
-    <App />
-    <ActionAreaCard />
+    <BrowserRouter>
+      <App />
+      
+    </BrowserRouter>
   </React.StrictMode>
 );
 
