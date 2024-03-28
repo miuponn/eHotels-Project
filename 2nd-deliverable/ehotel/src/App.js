@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar.js';
 import {Routes, Route} from "react-router-dom";
 import Hotels from "./pages/Hotels.js";
-
+import Login from "./pages/Login.js";
 
 function App(){
   return (
@@ -12,10 +12,17 @@ function App(){
       <Routes>
         <Route path="/home" />
         <Route path="/hotels" element= {<Hotels />} />
+        <Route path="/login" element={<Login />}/>
       </Routes>
       <h1>Make yourself at home.</h1>
     </div>
   );
 }
+
+/* 
+<Route path="/Discover" element={<Discover />}/>
+<Route path="/Login" element={<Login />}/>
+<Route path="/signup" element={<Signup />}/>
+*/
 
 export default App;
