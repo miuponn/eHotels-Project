@@ -5,13 +5,17 @@ import "./Hotels.css"
 
 export const Hotels = () => {
     return (
-    <div>
-    Hi! there is nothing on this page right now. It will show the hotels available within this place.
+    <div className="hotels-container">
+        <p className="hotels-description">
+            Hi! there is nothing on this page right now. It will show the hotels available within this place.
+            </p>
+        <br></br>
     <Card />
     <Card />
     <Card />
-    </div>
-    
+    <Card />
+    <Card />
+    </div> 
     );
 };
 

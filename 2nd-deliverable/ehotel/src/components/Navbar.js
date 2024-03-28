@@ -1,12 +1,14 @@
 import './Navbar.css';
-import * as React from 'react';
 import ReactDOM from 'react-dom/client';
-
+import React, {useState} from "react";
 
 import "./Navbar.css";
 import {Link, NavLink} from "react-router-dom";
 
 export const Navbar = () => {
+
+    const [menuOpen, setMenuOpen] = useState(false);
+    
     return (
     <nav>
         <Link to="/" className="title">Brotels.com</Link>
@@ -18,7 +20,7 @@ export const Navbar = () => {
                 <NavLink to ="/discover">Discover</NavLink>
             </li>
             <li>
-                <NavLink to ="/contact">Contact</NavLink>
+                <NavLink to ="/login">log in/sign up</NavLink>
             </li>
         </ul>
     </nav>

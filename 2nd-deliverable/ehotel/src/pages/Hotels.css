@@ -2,3 +2,7 @@ div {
     align-items: center;
     justify-content: space-between;
 }
+
+.hotel-container .hotel-text {
+    text-align: left;
+}
