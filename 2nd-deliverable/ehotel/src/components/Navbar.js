@@ -6,8 +6,6 @@ import "./Navbar.css";
 import {Link, NavLink} from "react-router-dom";
 
 export const Navbar = () => {
-
-    const [menuOpen, setMenuOpen] = useState(false);
     
     return (
     <nav>
@@ -17,9 +15,9 @@ export const Navbar = () => {
                 <NavLink to ="/hotels">Hotels</NavLink>
             </li>
             <li>
-                <NavLink to ="/discover">Discover</NavLink>
+                <NavLink to ="/profile">Profile</NavLink>
             </li>
-            <li>
+            <li className="login-button">
                 <NavLink to ="/login">log in/sign up</NavLink>
             </li>
         </ul>
