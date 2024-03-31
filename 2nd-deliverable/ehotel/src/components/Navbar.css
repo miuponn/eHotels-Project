@@ -6,7 +6,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(to right, #134169,  #198df2);
+    background-image: linear-gradient(to right, #134169,  #1b92fb);
     position: sticky;
     top: 0;
     z-index: 100%;
@@ -41,3 +41,4 @@ nav ul li a {
 nav ul li a:not(.active):hover {
     background-color: #256caa;
 }
+
