@@ -2,7 +2,11 @@ import * as React from "react";
 
 
 function Slogan() {
-    return();
+    return(
+      <div>
+        <h2 className="slogan-text"></h2>
+      </div>  
+    );
 };
 
 

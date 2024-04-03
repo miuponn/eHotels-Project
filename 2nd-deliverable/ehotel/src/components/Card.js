@@ -8,17 +8,42 @@ import { CardActionArea } from '@mui/material';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';*/
 import "./Card.css";
+import AcUnitIcon from "@mui/icons-material/AcUnit";
+import WifiIcon from "@mui/icons-material/Wifi"
+import PoolIcon from "@mui/icons-material/Pool"
+import TvIcon from "@mui/icons-material/Tv";
+import {Link, NavLink} from "react-router-dom";
 
+const FeatureIcon = (elem) => {
+    console.log(elem)
+    if (elem === "air conditioning") {
+        return (
+            <AcUnitIcon />
+        );
+    } else if(elem === "wifi") {
+        return (<WifiIcon />);
+    } else if(elem === "pool") {
+        return (<PoolIcon />);
+    } else if (elem ==="TV") {
+        return (<TvIcon />);
+    }
+}
 
-function Card({ hotelName, imageSrc }) {
+function Card({ hotelName, imageSrc, features}) {
     return (
-        <a href="/hotel" className="card-link">
-        <div className="card">
-            <img className="card-image"src={imageSrc} alt={hotelName}></img>
-            <h2 className="card-header">{hotelName}</h2>
-            <p className="card-text">Hotel. Very good. Very sexy. I like. </p>
-        </div>
-        </a>
+        <NavLink to="/hotel" className="card-link">
+            <div className="card">
+                <img className="card-image"src={imageSrc} alt={hotelName} />
+                <h2 className="card-header">{hotelName}</h2>
+                <p className="card-text">Hotel. Very good. Very sexy. I like. </p>
+                <ul className="features">
+                    {features?.map((elem) => (
+                    <li className="bullet-point"> <FeatureIcon elem={elem} className="bullet-icon"/>{elem}</li>
+                ))}
+                </ul>
+                <br/>
+            </div>
+        </NavLink>
     );
 };
 
@@ -27,7 +52,9 @@ function Card({ hotelName, imageSrc }) {
                 <li></li>
                 <li></li>
                 <li></li>
-
+{features.map((elem, index) => {
+                    return <li key={index}>${elem}</li>
+                })}
             </ul>
     will add the features later with included icons.        
             */
