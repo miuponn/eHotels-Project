@@ -54,3 +54,9 @@
     align-items: center;
     justify-content: space-between;
 }
+
+
+.sign-up-link {
+    text-decoration: none;
+    color:#134169;
+}

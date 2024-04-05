@@ -133,43 +133,20 @@
  export const roomInputs = [
     {
         id: 1,
-        label: "Hotel ID",
+        label: "Room number",
         type: "number",
         placeholder: "1234...",
     },
     {
         id: 2,
-        label: "Hotel name",
+        label: "Hotel name it's a part of",
         type: "text",
         placeholder: "hell hotel"
     },
     {
-        id: 3,
-        label: "Hotel chain",
-        type: "text",
-        placeholder: "Marriott, etc..."
-    },
-    {
         id: 4,
-        label: "Number of Rooms",
+        label: "Number of beds",
         type: "number",
-    },
-    {
-        id: 5,
-        label: "Address",
-        type: "text",
-        placeholder: "123 sesame street"
-    },
-    {
-        id: 6,
-        label: "Postal Code",
-        type: "text",
-        placeholder: "K1A 1A2"
-    },
-    {
-        id: 7,
-        label: "Country",
-        type: "text",
-        placeholder: "Canada"
+        placeholder: "2",
     },
  ];

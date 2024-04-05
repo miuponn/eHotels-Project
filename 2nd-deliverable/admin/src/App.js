@@ -4,7 +4,8 @@ import List from "./pages/list/List.js";
 import New from "./pages/new/New.js";
 import Single from "./pages/single/Single.js";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import {userInputs, employeeInputs, hotelInputs} from "./formSource.js";
+import {userInputs, employeeInputs, hotelInputs, roomInputs} from "./formSource.js";
+import Signup from "./pages/signup/Signup.js";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
         <Route path="/">
           <Route index element={<Home />}/>
           <Route path="login" element={<Login />}/>
+          <Route path="/signup" element={<Signup />}/>
           <Route path="users"> 
             <Route index element={<List />}/>
             <Route path=":userId" element={<Single />}/>
@@ -27,6 +29,11 @@ function App() {
             <Route index element={<List />}/>
             <Route path=":hotelId" element={<Single />}/>
             <Route path="new" element={<New inputs={hotelInputs} title="Add New Hotel"/>}/>
+          </Route>
+          <Route path="rooms"> 
+            <Route index element={<List />}/>
+            <Route path=":hotelId" element={<Single />}/>
+            <Route path="new" element={<New inputs={roomInputs} title="Add New Hotel"/>}/>
           </Route>
         </Route>
       </Routes>

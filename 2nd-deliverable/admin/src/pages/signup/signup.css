@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-.login-container {
+.signup-container {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.login-box {
+.signup-box {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -20,12 +20,12 @@
     padding:30px;
 }
 
-.login-header {
+.signup-header {
     text-align: center;
     margin: 20px 0 40px 0;
 }
 
-.login-header header {
+.signup-header header {
     font-size: 30px;
     font-weight: 600;
     color: #2068a7;
@@ -113,13 +113,19 @@ section a{
 
 }
 
-.sign-up-link {
+.login-link {
     text-align: center;
     font-size: 15px;
     margin-top: 20px;
 }
 
-.sign-up-link a{
+.login-link link{
     color: #198df2;
     font-weight: 600;
+}
+
+.space {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }

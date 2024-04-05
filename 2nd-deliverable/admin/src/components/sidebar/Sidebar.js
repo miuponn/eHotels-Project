@@ -43,7 +43,7 @@ const Sidebar = () => {
                             <span>Hotels</span>
                             </li>
                         </Link>
-                        <Link to="/room" style={{textDecoration: "none"}}>
+                        <Link to="/rooms" style={{textDecoration: "none"}}>
                             <li> 
                             <HotelIcon className="icon"/>
                             <span>Rooms</span>
