@@ -1,30 +1,21 @@
-import React from 'react';
+
 import './App.css';
-import Navbar from './components/Navbar.js';
-import {Routes, Route} from "react-router-dom";
-import Hotels from "./pages/Hotels.js";
-import Login from "./pages/Login.js";
-import Signup from "./pages/Signup.js";
-function App(){
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Home from "./pages/home/Home.js";
+import Hotel from "./pages/hotel/Hotel.js";
+import List from "./pages/list/List.js";
+
+
+function App() {
   return (
-    <div className = 'App'>
-      <Navbar />
-      <Routes>
-        <Route path="/home" />
-        <Route path="/hotels" element= {<Hotels />} />
-        <Route path="/profile"/>
-        <Route path="/login" element={<Login />}/>
-        <Route path="/signUp" element={< Signup />}/>
+   <BrowserRouter >
+      <Routes> 
+        <Route path="/" element={<Home/>}/>
+        <Route path="/hotels" element={<List/>}/>
+        <Route path="/hotels/:id" element={<Hotel/>}/>
       </Routes>
-      <h1>Make yourself at home.</h1>
-    </div>
+   </BrowserRouter >
   );
 }
-
-/* 
-<Route path="/Discover" element={<Discover />}/>
-<Route path="/Login" element={<Login />}/>
-<Route path="/signup" element={<Signup />}/>
-*/
 
 export default App;

@@ -1,0 +1,12 @@
+.mail {
+    width: 100%;
+    margin-top: 50px;
+    background-image: linear-gradient(to right, #134169, #1b92fb);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
