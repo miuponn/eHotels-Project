@@ -2,12 +2,9 @@
     display: flex;
   }
   
-  .homeContainer {
-    flex: 6;
-  }
-  
+ 
   .home-container {
-    display: flex;
+    display: grid;
     padding: 20px;
     gap: 20px;
   }

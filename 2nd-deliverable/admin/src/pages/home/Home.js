@@ -10,12 +10,15 @@ const Home = () => {
         <div className="home">
             <Sidebar />
             <div className="home-container">
-            <Navbar />
-            home container
+                <div className="navbar-container">
+                <Navbar />
+                </div>
             </div>
-            <div className="list-container">
-                <div className="list-title">Latest Bookings</div>
-                <Table />
+            <div className="content-container">
+                <div className="list-container">
+                    <div className="list-title">Latest Bookings</div>
+                    <Table />
+                </div>
             </div>
         </div>
     )

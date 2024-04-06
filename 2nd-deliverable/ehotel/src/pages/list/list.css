@@ -47,6 +47,15 @@
     padding: 5px;
 }
 
+.lsItem>select{
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    width: 100%;
+    outline:none;
+}
+
 .lsItem>span {
    height: 30px;
    background-color: white;
@@ -71,6 +80,11 @@
 .lsOptionInput{
     width:50px;
 }
+
+select {
+    width: 50px;
+}
+
 .listResult {
     flex: 3;
     

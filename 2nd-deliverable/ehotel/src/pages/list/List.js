@@ -14,6 +14,19 @@ const List = () => {
     const [date, setDate] = useState(location.state.date);
     const [openDate, setOpenDate] = useState(false);
     const [options, setOptions] = useState(location.state.options);
+    const [chosenVal, setChosenVal] = useState('');
+
+    const handleVal = (event) => {
+        setChosenVal(event.target.value);
+    }
+
+    const hotelChains = [
+        {id: 1, hotelChain:""},
+        {id: 2, hotelChain: "Marriott"},
+        {id: 3, hotelChain: "Travelodge"},
+        {id: 4, hotelChain: "Delta"}
+    ];
+
     return(
         <div>
             <Navbar />
@@ -37,6 +50,14 @@ const List = () => {
                             ranges={date}
                             />
                             )}
+                        </div>
+                        <div className="lsItem">
+                            <label>Hotel Chain</label>
+                            <select onChange={handleVal} value={chosenVal} className="">
+                                {hotelChains.map((hotelChain,index) => (
+                                    <option key={index}className="lsOptionText" value="">{hotelChain.hotelChain}</option>
+                                ))}
+                            </select>
                         </div>
                         <div className="lsItem">
                                 <label>Options</label>
@@ -79,6 +100,30 @@ const List = () => {
                                         className="lsOptionInput"
                                         placeholder={options.room}
                                     />
+                                    </div>
+                                    <div className="lsOptionItem">
+                                    <span className="lsOptionText">
+                                        Hotel Total Rooms
+                                    </span>
+                                    <input type="number" className="lsOptionInput"
+                                        min={1}
+                                        />
+                                    </div>
+                                    
+                                    <div className="lsOptionItem">
+                                        <span className="lsOptionText">
+                                            Hotel Category
+                                        </span>
+                                        <div className="lsOptionInput">
+                                            <select onChange={handleVal} value={chosenVal}>
+                                                <option className="lsOptionText" value=""></option>
+                                                <option className="lsOptionText" value="1">1</option>
+                                                <option className="lsOptionText" value="2">2</option>
+                                                <option className="lsOptionText"  value="3">3</option>
+                                                <option className="lsOptionText" value="4">4</option>
+                                                <option className="lsOptionText" value="5">5</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
                                 </div>
