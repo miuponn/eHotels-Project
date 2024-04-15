@@ -32,7 +32,6 @@ const New = ({inputs, title}) => {
                         </form>
                     </div>
                 </div>
-                test
             </div>
         </div>
     )
